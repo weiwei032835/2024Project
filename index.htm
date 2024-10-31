@@ -6,6 +6,8 @@
     <link rel="shortcut icon" href="./images/icon.svg"/>
     <title>陳葳作品網站</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- fontAwesome CDN 5.11.2 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
 
@@ -43,6 +45,13 @@
         .p-5 h3.title{ font-size:24px; font-weight:900; margin-bottom:-20px; border:0px solid blue; }
         .p-5 h3 span{ display:inline-block; font-size:16px; font-weight:700; margin-left:5px; vertical-align:top; }
 
+        /*footer*/
+        footer{max-width: 1280px; margin: 0 auto;}
+        .d-flex{display:flex;}
+        
+
+        
+
     </style>
 
 </head>
@@ -52,53 +61,99 @@
         <!--container 開始-->
         <div class="container">
             <a href="" class="navbar-brand">🐹 CHEN WEI</a>
-    
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
-    
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a data-scroll="#03" data-scroll class="nav-link">Vue</a></li>
                     <li class="nav-item"><a data-scroll="#01" data-scroll class="nav-link">活動網站</a></li>
                     <li class="nav-item"><a data-scroll="#02" data-scroll class="nav-link">小遊戲</a></li>
-                    <li class="nav-item"><a data-scroll="#03" data-scroll class="nav-link">Vue</a></li>
                     <li class="nav-item"><a data-scroll="#04" data-scroll class="nav-link">網頁作品/APP作品</a></li>
                     <li class="nav-item"><a data-scroll="#05" data-scroll class="nav-link">頻道頁</a></li>
                     <li class="nav-item"><a data-scroll="#06" data-scroll class="nav-link">視覺作品</a></li>
                 </ul>
             </div>
-    
+
         </div>
         <!--container 結束-->
     </nav>
     <!--nav 結束-->
-    
+
     <!--內文 開始-->
     <div class="inner p-5 text-center border-bottom">
-        <h3>🐹🐹🐹🐹</h3>
+
         <div class="col-11 custom-margin">
-    
-    
+
+
             <p>你好，我是陳葳，從事前端設計已有兩年多經驗。</p>
-    
+
             <p>出社會後曾擔任專業網頁設計師與udn電商視覺美術，可以獨立作業完成專案整體視覺，卻無法滿足工作層面成就感。</p>
             <p>在2021那年轉職前端工程師，同年進入東森新聞雲擔任製作部前端設計至今。</p>
-    
+
             <span><i class="bi bi-chat-square-quote"></i> "擅長RWD網站開發，包括視覺設計、版面重新設計和功能撰寫。"</span>
-    
+
             <!-- <button type="button" class="btn btn-secondary btn-sm">看更多</button> -->
         </div>
     </div>
     <!--內文 結束-->
-    
+
     <!--card 開始-->
     <div class="p-5">
     
         <div class="container">
+            
     
             <!--row 開始-->
             <div class="row g-4">
-    
+
+                <h3 class="title"><i class="bi bi-dash"></i>Vue<a id="03"></a></span></h3>
+                <!--row 開始-->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                    <!--組 開始-->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/18.png" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">蔬菜箱</h3>
+                                <p class="card-text">練習 新增/刪除/新增/切換 案例<span class="badge bg-secondary">功能</span></p>
+                                <a href="https://parg.co/UIlY" class="btn btn-outline-dark" target="_blank">小案例<i
+                                        class="bi bi-box-arrow-in-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--組 開始-->
+                    <!--組 開始-->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/18.png" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">羽球月打金額結算表</h3>
+                                <p class="card-text">練習 新增/刪除/新增/切換 案例<span class="badge bg-secondary">功能</span></p>
+                                <a href="https://parg.co/UIlY" class="btn btn-outline-dark" target="_blank">小案例<i
+                                        class="bi bi-box-arrow-in-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--組 開始-->
+                    <!--組 開始-->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/18.png" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">購物車</h3>
+                                <p class="card-text">練習 新增/刪除/新增/切換 案例<span class="badge bg-secondary">功能</span></p>
+                                <a href="https://parg.co/UIlY" class="btn btn-outline-dark" target="_blank">小案例<i
+                                        class="bi bi-box-arrow-in-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--組 開始-->
+                </div>
+                <!--row 結束-->
                 <h3 class="title"><i class="bi bi-dash"></i><a id="01" data-scroll="#01" data-bs-toggle="collapse"
                         data-bs-target="#01"></a>活動網站<span class="badge bg-secondary">Event Website</span></h3>
     
@@ -107,11 +162,48 @@
                     <!--組 開始-->
                     <div class="col">
                         <div class="card shadow-sm">
+                            <img src="images/20.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">2024總統大選</h3>
+                                <p class="card-text">「2024總統大選」開票網站，即時提供候選人得票數呈現選舉結果。<span class="badge bg-secondary">設計</span><span
+                                        class="badge bg-secondary">切版</span>
+                                </p>
+                                <a href="https://media.ettoday.net/events/election2024/ballot/ballotReport.php7" class="btn btn-outline-dark"
+                                    target="_blank"> 活動網站<i class="bi bi-box-arrow-in-right"></i>
+                                </a>
+                                <a href="https://parg.co/UIUF" class="btn btn-outline-dark" target="_blank">平面設計<i
+                                        class="bi bi-box-arrow-in-right"></i>
+                                </a>
+                            </div>
+                            </div>
+                            </div>
+                            <!--組 開始-->
+                            
+                            <!--組 開始-->
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <img src="images/21.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="card-title">期貨交易所心理測驗</h3>
+                                        <p class="card-text">「2024總統大選」開票網站，即時提供候選人得票數呈現選舉結果。
+                                            <span class="badge bg-secondary">切版</span>
+                                        </p>
+                                        <a href="https://media.ettoday.net/events/election2024/ballot/ballotReport.php7"
+                                            class="btn btn-outline-dark" target="_blank"> 網站<i class="bi bi-box-arrow-in-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--組 開始-->
+                            <!--組 開始-->
+                            <div class="col">
+                                <div class="card shadow-sm">
                             <img src="images/01.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h3 class="card-title">2024總統大選</h3>
                                 <p class="card-text">「2024總統大選」開票網站，即時提供候選人得票數呈現選舉結果。<span
-                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span></p>
+                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span>
+                                </p>
                                 <a href="https://media.ettoday.net/events/election2024/ballot/ballotReport.php7"
                                     class="btn btn-outline-dark" target="_blank"> 網站<i class="bi bi-box-arrow-in-right"></i>
                                 </a>
@@ -122,7 +214,6 @@
                         </div>
                     </div>
                     <!--組 開始-->
-    
                     <!--組 開始-->
                     <div class="col">
                         <div class="card shadow-sm">
@@ -130,7 +221,8 @@
                             <div class="card-body">
                                 <h3 class="card-title">2022九合一選舉</h3>
                                 <p class="card-text">「2022九合一選舉」開票網站，即時提供候選人得票數，呈現選舉結果。<span
-                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span></p>
+                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span>
+                                </p>
                                 <a href="https://media.ettoday.net/events/election2022/ballotReport"
                                     class="btn btn-outline-dark" target="_blank">
                                     網站<i class="bi bi-box-arrow-in-right"></i>
@@ -147,7 +239,8 @@
                             <div class="card-body">
                                 <h3 class="card-title">APP/網頁留言板功能</h3>
                                 <p class="card-text">互動式留言板功能，提升用戶體驗，有效提升APP下載量。<span
-                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span></p>
+                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span>
+                                </p>
     
                                 <a href="https://beta-www.ettoday.net/events/_wei/1/2022-0324_et_comment/web_v1/et_comment.htm"
                                     class="btn btn-outline-dark" target="_blank">
@@ -164,7 +257,8 @@
                             <div class="card-body">
                                 <h3 class="card-title">2023兔年鹿港天后宮抽籤</h3>
                                 <p class="card-text">線上鹿港天后宮抽籤，充滿祝福的籤詩，增添節慶氛圍，讓用戶享受互動的新年樂趣。<span
-                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切圖</span></p>
+                                        class="badge bg-secondary">設計</span><span class="badge bg-secondary">切圖</span>
+                                </p>
                                 <a href="https://events.ettoday.net/newyear_draw2023/index.php" class="btn btn-outline-dark"
                                     target="_blank">
                                     網站<i class="bi bi-box-arrow-in-right"></i>
@@ -189,7 +283,8 @@
                                 <h3 class="card-title">中秋賓果樂 | 手機版優先</h3>
                                 <p class="card-text">慶祝公司12周年，打造中秋賓果樂內部小活動，促進團隊凝聚力，共同享受節慶氛圍。<span
                                         class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span><span
-                                        class="badge bg-secondary">功能</span></p>
+                                        class="badge bg-secondary">功能</span>
+                                </p>
                                 <a href="https://parg.co/UIl4" class="btn btn-outline-dark" target="_blank">製作賓果卡<i
                                         class="bi bi-box-arrow-in-right"></i> </a>
                                 <a href="https://beta-www.ettoday.net/events/_wei/1/2023-0914_bingo/web_ver1/play.htm"
@@ -207,7 +302,8 @@
                                 <h3 class="card-title">聖誕節卡片</h3>
                                 <p class="card-text">溫馨聖誕夜卡片製造機，ETtoday將祝福化作聖誕驚喜。<span class="badge bg-secondary">fabricjs
                                         canvas 圖片編輯</span><span class="badge bg-secondary">設計</span><span
-                                        class="badge bg-secondary">切版</span><span class="badge bg-secondary">功能</span></p>
+                                        class="badge bg-secondary">切版</span><span class="badge bg-secondary">功能</span>
+                                </p>
                                 <a href="https://beta-www.ettoday.net/events/_wei/1/2023-1205_Xmas_et/v2/index.htm?openExternalBrowser=1"
                                     class="btn btn-outline-dark" target="_blank">
                                     製作卡片<i class="bi bi-box-arrow-in-right"></i>
@@ -224,7 +320,8 @@
                                 <h3 class="card-title">招財貓卡片製造機</h3>
                                 <p class="card-text">打造你的可愛招財貓卡片！點擊創造小貓魔法，擁抱好運，一起迎接甜蜜財富之旅喵！<span
                                         class="badge bg-secondary">設計</span><span class="badge bg-secondary">切版</span><span
-                                        class="badge bg-secondary">功能</span></p>
+                                        class="badge bg-secondary">功能</span>
+                                </p>
                                 <a href="https://parg.co/UIbT" class="btn btn-outline-dark" target="_blank">
                                     製作卡片<i class="bi bi-box-arrow-in-right"></i>
                                 </a>
@@ -235,28 +332,7 @@
                 </div>
                 <!--row 結束-->
     
-    
-                <h3 class="title"><i class="bi bi-dash"></i>Vue<a id="03"></a></span></h3>
-                <!--row 開始-->
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-    
-                    <!--組 開始-->
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="images/18.png" class="card-img-top">
-                            <div class="card-body">
-                                <h3 class="card-title">蔬菜箱</h3>
-                                <p class="card-text">練習 新增/刪除/新增/切換 案例<span class="badge bg-secondary">功能</span></p>
-                                <a href="https://parg.co/UIlY" class="btn btn-outline-dark" target="_blank">小案例<i
-                                        class="bi bi-box-arrow-in-right"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--組 開始-->
-                </div>
-                <!--row 結束-->
-    
-    
+                
                 <h3 class="title"><i class="bi bi-dash"></i><a id="04"></a>網頁作品/APP作品<span
                         class="badge bg-secondary">Project</span></h3>
                 <!--row 開始-->
@@ -338,7 +414,8 @@
                 <!--row 結束-->
     
     
-                <h3 class="title"><i class="bi bi-dash"></i><a id="05">頻道網站</a><span class="badge bg-secondary">Channel Website</span></h3>
+                <h3 class="title"><i class="bi bi-dash"></i><a id="05">頻道網站</a><span class="badge bg-secondary">Channel
+                        Website</span></h3>
     
                 <!--row 開始-->
                 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -448,11 +525,11 @@
                     <!--組 開始-->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="images/01.jpg" class="card-img-top">
+                            <img src="images/17.png" class="card-img-top">
                             <div class="card-body">
-                                <h3 class="card-title">金門風獅爺插圖</h3>
-                                <p class="card-text">金門吉祥物插圖，製作成粿翻模具</p>
-                                <a href="your_website_url" class="btn btn-outline-dark" target="_blank">
+                                <h3 class="card-title">其他視覺作品</h3>
+                                <p class="card-text">電商視覺/網頁設計</p>
+                                <a href="https://www.behance.net/wiwei03283d24e" class="btn btn-outline-dark" target="_blank">
                                     網站<i class="bi bi-box-arrow-in-right"></i>
                                 </a>
                             </div>
@@ -462,14 +539,10 @@
                     <!--組 開始-->
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="images/17.png" class="card-img-top">
+                            <img src="images/19.jpg" class="card-img-top">
                             <div class="card-body">
-                                <h3 class="card-title">其他視覺作品</h3>
-                                <p class="card-text">電商視覺/網頁設計</p>
-                                <a href="https://www.behance.net/wiwei03283d24e" class="btn btn-outline-dark"
-                                    target="_blank">
-                                    網站<i class="bi bi-box-arrow-in-right"></i>
-                                </a>
+                                <h3 class="card-title">金門風獅爺插圖</h3>
+                                <p class="card-text">製作成粿翻模具，金門風情的特色圖案</p>
                             </div>
                         </div>
                     </div>
@@ -482,20 +555,14 @@
         </div>
     </div>
     <!--card 結束-->
-    
+
     <!--footer 開始-->
-    <footer class="p-4 border-top">
-        <div class="container align-items-center justify-content-between">
-            <p class="mb-0 text-muted">
-                &copy;2024 陳葳 All rights reserved.
-            </p>
-            <ul class="nav">
-                <li class="nav-item"> </li>
-            </ul>
-        </div>
+    <footer class="p-4 border-top d-flex flex-column align-items-center">
+        <p>&copy;2024 陳葳 All rights reserved. </p>
+        <p class="mb-0 text-muted"><i class="fa-regular fa-envelope"></i> : wiwei032835@gmail.com</p>
     </footer>
     <!--footer 開始-->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
@@ -505,8 +572,8 @@
         $(function () {
             $("a[data-scroll]").on("click", function (e) {
                 e.preventDefault();
-                let target = $(this).data('scroll'); 
-                let offset = $(target).offset().top - 100; 
+                let target = $(this).data('scroll');
+                let offset = $(target).offset().top - 100;
                 $("html, body").animate({ scrollTop: offset }, 300);
             });
         });
